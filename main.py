@@ -53,7 +53,7 @@ bot = Client(
 user = Client(
     "user_session",
     workers=100,
-    session_string=PyroConf.SESSION_STRING,
+  
     max_concurrent_transmissions=1, # ✅ SAFE DEFAULT
     sleep_threshold=30,
 )
